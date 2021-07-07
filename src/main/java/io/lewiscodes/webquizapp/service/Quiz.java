@@ -1,6 +1,7 @@
 package io.lewiscodes.webquizapp.service;
 
 import io.lewiscodes.webquizapp.model.Question;
+import org.springframework.stereotype.Component;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -10,6 +11,7 @@ import java.util.Map;
     In memory data store for created questions
  */
 
+@Component
 public class Quiz {
     private final Map<Integer, Question> questions = new HashMap<>();
 
