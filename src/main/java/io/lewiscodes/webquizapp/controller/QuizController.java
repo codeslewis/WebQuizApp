@@ -17,7 +17,7 @@ import java.util.Collection;
  */
 
 @RestController
-@RequestMapping("/api/quizzes")
+@RequestMapping("/api/questions")
 public class QuizController {
     private final Quiz quiz;
 
